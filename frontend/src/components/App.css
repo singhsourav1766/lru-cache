@@ -1,0 +1,67 @@
+/* App.css */
+
+/* Styles for the container div */
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center horizontally */
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    /* Added margin */
+    padding: 20px;
+    /* Added padding */
+}
+
+.header {
+    text-align: center;
+    /* Center the content horizontally */
+    background-color: #75f4d8;
+    /* Example background color */
+    padding: 10px;
+    /* Added padding */
+    border-radius: 5px;
+    /* Rounded corners */
+    margin-bottom: 20px;
+    /* Added margin */
+}
+
+
+body {
+    background-color: #ccecf1;
+}
+
+/* App.css */
+
+/* Style for h1 */
+h1 {
+    font-size: 36px;
+    /* Increase font size */
+    margin: 20px auto;
+    /* Add margin and center horizontally */
+    padding: 15px;
+    /* Add padding */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Change font */
+    border: 3px solid #4CAF50;
+    /* Add border with green color */
+    color: #333;
+    /* Text color */
+    text-align: center;
+    /* Center align text */
+    text-transform: uppercase;
+    /* Uppercase text */
+    background-color: #f9f9f9;
+    /* Background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Add box shadow for depth */
+    border-radius: 10px;
+    /* Add border radius for rounded corners */
+    display: block;
+    /* Extend the box from left end to right end */
+    width: 80%;
+    /* Set the width of the box */
+    max-width: 800px;
+    /* Set maximum width to maintain readability */
+}

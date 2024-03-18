@@ -1,0 +1,46 @@
+/* SetKeyValueForm.css */
+
+/* Container styles */
+.SetKeyValueForm {
+    max-width: 400px;
+    /* Set maximum width */
+    margin: 0 auto;
+    /* Center horizontally */
+}
+
+/* Form styles */
+.SetKeyValueForm form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Title styles */
+.SetKeyValueForm h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Input styles */
+.SetKeyValueForm input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Button styles */
+.SetKeyValueForm button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.SetKeyValueForm button:hover {
+    background-color: #0056b3;
+}
